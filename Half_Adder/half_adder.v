@@ -24,19 +24,19 @@
       
 //endmodule      
 
-module adder_half_behavioral(input [0:1]d,
-   output reg [0:1]y );
+//module adder_half_behavioral(input [0:1]d,
+//   output reg [0:1]y );
    
-   always@(*)begin
-   case(d)
-     2'b00:y = 2'b00;
-     2'b01:y = 2'b10;
+//   always@(*)begin
+ //  case(d)
+ //    2'b00:y = 2'b00;
+ //    2'b01:y = 2'b10;
      
-     2'b10:y = 2'b10;
-     2'b11:y = 2'b01;
-     default:y=2'b00;
+ //    2'b10:y = 2'b10;
+//   2'b11:y = 2'b01;
+//     default:y=2'b00;
      
-   endcase
-   end
-   endmodule  
+//   endcase
+//   end
+//   endmodule  
    
